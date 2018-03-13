@@ -71,7 +71,7 @@ public class BinaryTree {
      * One line per node, depth-first. One space of indentation per depth.
      */
     public String toString()
-    {
+    { 
         return toString(0, "");
     }
     private String toString(int node, String intendation)
